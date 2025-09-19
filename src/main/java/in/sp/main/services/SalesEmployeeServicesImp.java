@@ -152,6 +152,7 @@ public class SalesEmployeeServicesImp implements SalesEmployeeServices {
 	    throw new EntityNotFoundException("SalesEmployee with ID " + employee_id + " not found.");
 	}
 
+	//Update Partially
 	@Override
 	public SalesEmployeeDTO updateSalesEmployeePartially(SalesEmployeeDTO salesEmployeeDTO) throws NameIsNullException, EmailIsNullException, JoinedDateNullException {
 
